@@ -1,10 +1,10 @@
 package main
 
 import (
-	"errHandling/fileListingServer"
 	"log"
 	"net/http"
 	"os"
+	"study-go/errHandling/fileListingServer"
 )
 
 type appHandler func(writer http.ResponseWriter, request *http.Request) error
